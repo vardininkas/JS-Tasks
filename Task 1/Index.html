@@ -11,7 +11,6 @@
   <body>
     <header>
       <!-- Header code-->
-      <h1>testas</h1>
     </header>
 
     <main>
@@ -20,10 +19,28 @@
         <!-- Users input -->
         <form>
           <input type="text" id="search" placeholder="Enter kilograms..." />
-          <input type="submit" id="submit-btn" value="Calculate" />
+          <input type="submit" id="submit-btn" value="Calculate" ; />
         </form>
         <!-- Place for output after form submission -->
-        <div id="output"></div>
+        <div id="output">
+          <table class="atsakymas" id="atsakymas">
+            <tr>
+              <td>1.</td>
+              <td>Svarai (lb)</td>
+              <td id="svaraiReiksme"></td>
+            </tr>
+            <tr>
+              <td>2.</td>
+              <td>Gramai (g)</td>
+              <td id="gramaiReiksme"></td>
+            </tr>
+            <tr>
+              <td>3.</td>
+              <td>Uncijos (oz)</td>
+              <td id="uncijosReiksme"></td>
+            </tr>
+          </table>
+        </div>
       </div>
     </main>
 
